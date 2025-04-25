@@ -161,7 +161,7 @@ def side_bar():
         sidebar_select=option_menu("TrendVista",["Log-in","Sign-Up"],default_index=0,menu_icon="pie-chart",icons=["unlock","lock"],orientation="vertical",key="sidebar_menu_key")
 
     if sidebar_select=="Log-in":
-        st.success("If You Do Not Have Account Then Sign-Up Frist")
+        st.success("If You Do Not Have Account Then Sign-Up First")
         with st.form("Form1"):
             st.title("Log In")
             UserEnterUserName=st.text_input("Enter Your Username")
